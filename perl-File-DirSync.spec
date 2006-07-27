@@ -8,13 +8,13 @@
 Summary:	File::DirSync - synchronize two directories rapidly
 Summary(pl):	File::DirSync - szybka synchronizacja dwóch katalogów
 Name:		perl-File-DirSync
-Version:	1.13
+Version:	1.14
 Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fa8c8d6be4a339fdda83ea5dff3dd240
+# Source0-md5:	8e3ff17f612bd058f24d967f2d55c430
 Patch0:		%{name}
 URL:		http://search.cpan.org/dist/File-DirSync
 BuildRequires:	perl-devel >= 1:5.8.0
