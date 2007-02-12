@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	DirSync
 Summary:	File::DirSync - synchronize two directories rapidly
-Summary(pl):	File::DirSync - szybka synchronizacja dwóch katalogów
+Summary(pl.UTF-8):   File::DirSync - szybka synchronizacja dwÃ³ch katalogÃ³w
 Name:		perl-File-DirSync
 Version:	1.14
 Release:	0.1
@@ -28,12 +28,12 @@ few stats and reads and writes as possible. It usually can perform the
 syncronization process within a few milliseconds - even for gigabytes
 or more of information.
 
-%description -l pl
-File::DirSync czyni dwa katalogi dok³adnie takimi samymi. Celem jest
-wykonanie tego procesu synchronizacji jak najszybciej, jak najmniejsz±
-liczb± operacji stat, odczytu i zapisu. Zwykle mo¿e wykonaæ proces
-synchronizacji w ci±gu kilku milisekund - nawet dla gigabajtów lub
-wiêkszej ilo¶ci informacji.
+%description -l pl.UTF-8
+File::DirSync czyni dwa katalogi dokÅ‚adnie takimi samymi. Celem jest
+wykonanie tego procesu synchronizacji jak najszybciej, jak najmniejszÄ…
+liczbÄ… operacji stat, odczytu i zapisu. Zwykle moÅ¼e wykonaÄ‡ proces
+synchronizacji w ciÄ…gu kilku milisekund - nawet dla gigabajtÃ³w lub
+wiÄ™kszej iloÅ›ci informacji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
